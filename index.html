@@ -12,32 +12,29 @@
 </head>
 <body>
     <div class = 'container'> 
-    <div class="jumbotron">
+    <div class="jumbotron" >
         <h1 class="display-4">New York Times Search</h1>
         <p class="lead">The New York Times Search App.</p>
-        <hr class="my-4">
-        <p>Use the below to get the information you need.</p>
-
     </div>
     <form>
         <div class="form-group">
             <label for="exampleFormControlInput1">Search Parameters</label>
-            <textarea class="form-control" id="SearchParameters" rows="3"></textarea>
+            <textarea class="form-control" id="SearchParameters" rows="1"></textarea>
         </div>
 
         <div class="form-group">
              <label for="exampleFormControlInput1">Number of Records to Retrieve:</label>
              <br>
-            <input type="number" min="0" id="numberofrecords" rows="3">
+            <input type="number" min="0" id="numberofrecords" rows="1">
         </div>
 
         <div class="form-group">
             <label for="exampleFormControlTextarea1"> Start Year (Optional)</label>
-            <textarea class="form-control" id="startyear" rows="3"></textarea>
+            <textarea class="form-control" id="startyear" rows="1"></textarea>
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1">End Year (Optional)</label>
-            <textarea class="form-control" id="endyear" rows="3"></textarea>
+            <textarea class="form-control" id="endyear" rows="1"></textarea>
         </div>
     </form>
 
@@ -45,15 +42,11 @@
         <div class="col-sm-12">
           <br>
   
-          <!-- This card will initially be made up of a card and wells for each of the articles retrieved -->
           <div class="card">
-  
-            <!-- card Heading for the retrieved articles box -->
             <div class="card-header">
               <strong>
                 <i class="fa fa-table"></i> Top Articles</strong>
             </div>
-            <!-- This main card will hold each of the resulting articles -->
             <div class="card-body" id="article-section">
             </div>
           </div>
@@ -62,7 +55,7 @@
 </body>
 
 
-<div class="row">
+<div class="footer">
     <div class="col-sm-12">
         <hr>
         <h5 class="text-center">
