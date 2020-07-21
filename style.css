@@ -1,9 +1,10 @@
 .jumbotron {
-    background-color: #0292B7!important;
-    color: white !important
+    background-color: #24335B!important;
+    color: white !important; 
+    font-weight: 800 !important; 
 }
 
 .footer {
-    background-color: #0292B7!important;
+    background-color: #24335B!important;
     color: white !important
 }
